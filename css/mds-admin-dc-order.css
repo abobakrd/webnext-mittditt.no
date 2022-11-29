@@ -1,0 +1,75 @@
+#mds_dc-info-options {
+    background: #d4d4d4;
+    padding: 1px 20px 20px 20px;
+}
+
+#mds_dc-info-options #mds_title{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#mds_dc-info-options .mds_admin-btn {
+    background: #454545;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-bottom:4px;
+}
+
+#mds_dc-info-options .mds_admin-btn:hover {
+    cursor:pointer;
+}
+.mds_receiver-holder {
+    border-right: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+    border-top: 1px solid #cbcbcb;
+    width: 100%;
+}
+.mds_receiver-holder div {
+    padding:10px;
+}
+.mds_receiver-holder div:nth-child(1) {
+    border-bottom: 1px solid #cbcbcb;
+    font-weight:600;
+    background:#eaeaea;
+}
+#mds_receiver { display:flex; border-left:1px solid #cbcbcb;}
+
+#mds_order-table-receivers p {
+    padding: 0 10px;
+    /* font-size: 14px; */
+    font-weight: 600;
+}
+#mds_order-table-receivers p:nth-child(1) {
+    background: #f8f8f8;
+    padding: 10px;
+    margin: 0;
+}
+.mds_ctbl {
+    margin-bottom: 15px;
+}
+.mds_ctbl img {
+    margin-top:10px;
+    border:1px solid grey;
+}
+
+.mds_ctbl div {
+    padding: 0px;
+    flex: auto;
+}
+
+.mds_ctbl h4 {
+    background:#f1f1f1;
+    padding:20px;
+}
+
+.mds_ctbl p {
+    padding: 5px 20px;
+}
+
+.mds_ctbl h4,
+.mds_ctbl p {
+    margin:0;
+}

@@ -1,0 +1,127 @@
+.mds_motive-container {
+    background: white;
+    padding: 1px 20px 16px;
+    box-shadow: 0 0 4px #0000001c;
+    border-radius: 4px;
+    margin: 10px 10px 0 0;
+    max-height:1000px;
+    overflow-y:scroll;
+}
+.mds_img-container {
+    display:flex;
+    flex-wrap:wrap;
+}
+.mds_img-container div {
+    position: relative;
+    border: 2px solid lightgrey;
+    margin: 2px;
+}
+
+.mds_img-container div:hover {
+    cursor: pointer;
+}
+.mds_img-container input {
+    position: absolute;
+    top: 13px;
+    left: 9px;
+    border-radius: 0;
+}
+
+#mds_del-motive-form p {
+    margin:0;
+}
+
+#mds_status-bar-motives {
+    height: 32px;
+    background: #d1e7fa;
+    padding: 10px 26px;
+    margin: 10px 0 10px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+#mds_status-bar-motives p {
+        font-size: 15px;
+        font-weight: 600;
+        color: #5a5a5a;
+}
+
+#mds_status-bar-motives input {
+    margin-right:10px;
+}
+
+#mds_fileupload-motive-form select {
+    margin-right: 12px;
+    margin-top:5px;
+}
+
+#mds_status-bar-motives div {
+    font-size: 15px;
+    font-weight: 600;
+    color: #0163ff;
+    border-bottom: 2px solid #0163ff;
+    padding-bottom: 4px;
+}
+
+#mds_status-bar-motives div:hover {
+    cursor: pointer;
+    color:#0a44a1;
+    border-color:#0a44a1;
+}
+
+#mds_fileupload-box {
+    background: #ececec;
+    padding: 10px;
+    width: fit-content;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+}
+
+#mds_fileupload-motive-form input[type=submit] {
+        background: #0163ff;
+        color: white;
+        border: none;
+        padding: 6px 13px 10px;
+        border-radius: 4px;
+}
+
+#mds_fileupload-motive-form input[type=submit]:hover {
+    cursor:pointer;
+    background:#0047b8;
+}
+
+p.mds_motive-upload-status {
+    margin: 0;
+    color: #437eaf;
+    font-size: 16px;
+    background: #cde8f6;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+p.mds_motive-upload-status.succ {
+    background:#ddf3d5;
+    color:#597151;
+}
+
+p.mds_motive-upload-status.err {
+    background:#ecc8c5;
+    color:#b4302a;
+}
+
+.mds_admin-box {
+    background: white;
+    box-shadow: 0 0 4px #0000001c;
+    border-radius: 4px;
+    margin-right:10px!important;
+}
+
+.mds_motive-envelopes img {
+    width:230px;
+}
+
+.mds-motive-hylse img {
+    height:100px;
+}
